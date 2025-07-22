@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog | My Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">My <span class="port">Portfolio</span></a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html" class="active">Blogs</a></li>
+        <div class="close">
+        <li><a href="contact.html">Contact</a></li><input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="close-icon">&#10005;</label></div>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="blog">
+      <h1>Blogs</h1>
+      <div class="blog-list">
+        <div class="blog-card">
+          <img src="climate.jpg" alt="Blog 1"/>
+          <h3>Climate Change</h3>
+          <p>Climate Change: its causes, effects, and solutions for a sustainable future.</p>
+          <a href="single-blog.html" class="btn-outline">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img src="AI.png" alt="Blog 2"/>
+          <h3>Artificial Intelligence</h3>
+          <p>Exploring the world of AI: its applications, innovations, and impact on our daily lives.</p>
+          <a href="single-blog-2.html" class="btn-outline">Read More</a>
+        </div>
+        <!-- Add more blog cards -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+    <p>&copy; 2025 <br><h3>Rabi'at Sadi Yakasai.</h3> All rights reserved.</p></div>
+   <a href="#"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+  </footer>
+</body>
+</html>
