@@ -81,8 +81,7 @@ header {
   list-style: none;
   display: flex;
   gap: 2em;
-  color :var(--bg-color-one);
-  background:#1097f1;
+  color:#1097f1;
   font-size: 25px;
 }
 .nav-links li a {
@@ -112,6 +111,7 @@ header {
   align-items: center;
 }
 .close-icon{
+    display: none;
    color: var(--bg-color-one); 
    font-size: 1.2em;
 }
@@ -137,7 +137,7 @@ header {
   #menu-toggle:checked + .menu-icon + .nav-links {
     display: flex;
   }
-  .menu-icon {
+  .menu-icon, .close-icon {
     display: block;
   }
 }
