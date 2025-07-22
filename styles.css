@@ -134,6 +134,9 @@ header {
     color: var(--bg-color-one);
     border-radius: 8px;
   }
+    .nav-links li a {
+  color: var(--bg-color-one);
+    }
   #menu-toggle:checked + .menu-icon + .nav-links {
     display: flex;
   }
