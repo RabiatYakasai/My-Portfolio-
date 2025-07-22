@@ -85,7 +85,7 @@ header {
   font-size: 25px;
 }
 .nav-links li a {
-  color :var(--bg-color-one);
+  color:#1097f1;
   font-weight: 500;
   transition: color 0.2s;
   }
