@@ -182,7 +182,7 @@ span{
     color: var(--text-color-two);
 }
 .hero-content {
-        padding:0 10px;
+padding:0 20px;
   flex: 1;
   min-width: 280px;
 }
