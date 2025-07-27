@@ -211,10 +211,11 @@ span{
 }
 .about-content {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 2em;
   flex-wrap: wrap;
   color: #3f51b5;
+    
   }
  .about-content p{
    bottom: 20px;   
