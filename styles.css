@@ -197,6 +197,8 @@ span{
 
 /* About Section */
 .about, .about-page {
+    display: flex;
+    flex-direction:column;
   background: #fff;
   max-width: 1100px;
   margin: 3em auto;
@@ -211,6 +213,7 @@ span{
 }
 .about-content {
   display: flex;
+    flex-direction:column;
   align-items: center;
   gap: 2em;
   flex-wrap: wrap;
