@@ -203,7 +203,7 @@ span{
   border-radius: 8px;
   padding: 2em;
   box-shadow: 0 2px 16px #0001;
-    text-align: center;
+align-item: center;
 }
 .about h2, .about-page h1 {
   color: #3f51b5;
