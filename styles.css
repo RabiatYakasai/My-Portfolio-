@@ -326,7 +326,7 @@ transform: translateY(-10px);
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .project-card {
   background: #f5f6fa;
