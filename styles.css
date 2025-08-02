@@ -199,7 +199,7 @@ span{
 .about, .about-page {
   background: #fff;
   max-width: 1100px;
-  margin: 3em auto;
+  margin: 3em;
   border-radius: 8px;
   padding: 2em;
   box-shadow: 0 2px 16px #0001;
@@ -207,7 +207,7 @@ span{
 .about h2, .about-page h1 {
   color: #3f51b5;
   margin-bottom: 1em;
-    align-items: center;
+text-align: center;
 }
 .about-content {
   display: flex;
