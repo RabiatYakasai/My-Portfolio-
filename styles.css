@@ -324,7 +324,7 @@ transform: translateY(-10px);
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: 1em;
   justify-content: space-between;
 }
 .project-card {
@@ -335,7 +335,7 @@ transform: translateY(-10px);
   padding: 1em;
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1em;
   align-items: center;
     justify-content :space-between;
 }
@@ -407,8 +407,8 @@ transform: translateY(-10px);
 .blog-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
-  justify-content: flex-start;
+  gap: 1em;
+  justify-content: space-between;
 }
 .blog-card {
   background: #f5f6fa;
