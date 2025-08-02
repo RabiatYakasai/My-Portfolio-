@@ -395,7 +395,7 @@ transform: translateY(-10px);
   background: #fff;
   border-radius: 8px;
   padding: 2em;
-    justify-content: space-between;
+    justify-content: space-evenly;
   box-shadow: 0 2px 16px #0001;
 }
 .blogs h2, .blog h1, .single-blog h1 {
