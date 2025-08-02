@@ -207,6 +207,7 @@ span{
 .about h2, .about-page h1 {
   color: #3f51b5;
   margin-bottom: 1em;
+    align-items: center;
 }
 .about-content {
   display: flex;
@@ -229,7 +230,7 @@ span{
   box-shadow: 0 2px 12px #3f51b520;
   margin-right: 1em;
   margin-bottom: 1em;
-    text-align: center;
+align-item: center;
  }
 .map{
   margin: auto;
