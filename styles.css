@@ -215,12 +215,15 @@ text-align: center;
   gap: 2em;
   flex-wrap: wrap;
   color: #3f51b5;
+    text-align: center;
   }
  .about-content p{
    bottom: 20px;   
   }
 .about-flex{
     display:flex;
+    justify-content :space-between;
+}
 }
   .expert{
     color :var(--bg-color-one);  
