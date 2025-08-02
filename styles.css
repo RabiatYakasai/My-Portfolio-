@@ -215,7 +215,7 @@ text-align: center;
   gap: 2em;
   flex-wrap: wrap;
   color: #3f51b5;
-    text-align: center;
+align-item: center;
   }
  .about-content p{
    bottom: 20px;   
